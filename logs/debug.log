@@ -1,0 +1,489 @@
+INFO 2022-05-06 11:10:31,931 autoreload 12956 14876 Watching for file changes with StatReloader
+INFO 2022-05-06 11:10:53,623 basehttp 12956 14692 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-05-06 11:10:53,739 basehttp 12956 14692 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+INFO 2022-05-06 11:10:53,883 basehttp 12956 14692 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-05-06 11:10:54,003 basehttp 12956 14692 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+INFO 2022-05-06 11:11:03,568 basehttp 12956 14692 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2377
+INFO 2022-05-06 11:11:16,292 basehttp 12956 14692 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2376
+INFO 2022-05-06 11:14:12,839 autoreload 2420 13536 Watching for file changes with StatReloader
+INFO 2022-05-06 11:14:54,430 basehttp 2420 7660 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2022-05-06 11:14:54,550 basehttp 2420 7660 "GET /admin/ HTTP/1.1" 200 5215
+INFO 2022-05-06 11:15:05,291 basehttp 2420 7660 "GET /admin/myApp/issue/ HTTP/1.1" 200 5917
+INFO 2022-05-06 11:15:05,403 basehttp 2420 7660 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 11:17:26,247 basehttp 2420 7660 "GET /admin/ HTTP/1.1" 200 5215
+INFO 2022-05-06 11:19:03,674 autoreload 16672 16608 Watching for file changes with StatReloader
+INFO 2022-05-06 11:21:05,421 basehttp 16672 13300 "GET /admin/myApp/comment/ HTTP/1.1" 302 0
+INFO 2022-05-06 11:21:05,581 basehttp 16672 13300 "GET /admin/login/?next=/admin/myApp/comment/ HTTP/1.1" 200 2243
+INFO 2022-05-06 11:21:12,873 basehttp 16672 13300 "POST /admin/login/?next=/admin/myApp/comment/ HTTP/1.1" 302 0
+INFO 2022-05-06 11:21:12,945 basehttp 16672 13300 "GET /admin/myApp/comment/ HTTP/1.1" 200 5931
+INFO 2022-05-06 11:21:13,049 basehttp 16672 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 11:21:31,912 basehttp 16672 13300 "GET /admin/myApp/user/ HTTP/1.1" 200 5910
+INFO 2022-05-06 11:21:31,984 basehttp 16672 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 11:21:34,144 basehttp 16672 13300 "GET /admin/myApp/user/add/ HTTP/1.1" 200 7548
+INFO 2022-05-06 11:21:34,296 basehttp 16672 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 11:21:52,993 basehttp 16672 13300 "POST /admin/myApp/user/add/ HTTP/1.1" 302 0
+INFO 2022-05-06 11:21:53,169 basehttp 16672 13300 "GET /admin/myApp/user/ HTTP/1.1" 200 7242
+INFO 2022-05-06 11:21:53,297 basehttp 16672 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 11:21:57,652 basehttp 16672 13300 "GET /admin/myApp/user/add/ HTTP/1.1" 200 7548
+INFO 2022-05-06 11:21:57,772 basehttp 16672 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 11:22:12,239 basehttp 16672 13300 "POST /admin/myApp/user/add/ HTTP/1.1" 302 0
+INFO 2022-05-06 11:22:12,375 basehttp 16672 13300 "GET /admin/myApp/user/add/ HTTP/1.1" 200 7773
+INFO 2022-05-06 11:22:12,495 basehttp 16672 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 11:22:34,288 basehttp 16672 13300 "POST /admin/myApp/user/add/ HTTP/1.1" 302 0
+INFO 2022-05-06 11:22:34,464 basehttp 16672 13300 "GET /admin/myApp/user/ HTTP/1.1" 200 7645
+INFO 2022-05-06 11:22:34,560 basehttp 16672 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 11:22:42,494 basehttp 16672 13300 "GET /admin/myApp/project/ HTTP/1.1" 200 5931
+INFO 2022-05-06 11:22:42,638 basehttp 16672 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 11:22:45,457 basehttp 16672 13300 "GET /admin/myApp/project/add/ HTTP/1.1" 200 8374
+INFO 2022-05-06 11:22:45,569 basehttp 16672 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 11:22:59,275 basehttp 16672 13300 "POST /admin/myApp/project/add/ HTTP/1.1" 302 0
+INFO 2022-05-06 11:22:59,435 basehttp 16672 13300 "GET /admin/myApp/project/add/ HTTP/1.1" 200 8608
+INFO 2022-05-06 11:22:59,571 basehttp 16672 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 11:23:11,480 basehttp 16672 13300 "POST /admin/myApp/project/add/ HTTP/1.1" 302 0
+INFO 2022-05-06 11:23:11,584 basehttp 16672 13300 "GET /admin/myApp/project/ HTTP/1.1" 200 7487
+INFO 2022-05-06 11:23:11,752 basehttp 16672 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 11:23:13,407 basehttp 16672 13300 "GET /admin/myApp/issue/ HTTP/1.1" 200 5917
+INFO 2022-05-06 11:23:13,519 basehttp 16672 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 11:23:16,586 basehttp 16672 13300 "GET /admin/myApp/issue/add/ HTTP/1.1" 200 11047
+INFO 2022-05-06 11:23:16,690 basehttp 16672 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 11:23:38,825 basehttp 16672 13300 "POST /admin/myApp/issue/add/ HTTP/1.1" 302 0
+INFO 2022-05-06 11:23:38,977 basehttp 16672 13300 "GET /admin/myApp/issue/add/ HTTP/1.1" 200 11283
+INFO 2022-05-06 11:23:39,097 basehttp 16672 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 11:24:21,486 basehttp 16672 13300 "POST /admin/myApp/issue/add/ HTTP/1.1" 302 0
+INFO 2022-05-06 11:24:21,566 basehttp 16672 13300 "GET /admin/myApp/issue/ HTTP/1.1" 200 7489
+INFO 2022-05-06 11:24:21,670 basehttp 16672 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 11:24:24,889 basehttp 16672 13300 "GET /admin/myApp/comment/ HTTP/1.1" 200 5931
+INFO 2022-05-06 11:24:24,985 basehttp 16672 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 11:24:27,187 basehttp 16672 13300 "GET /admin/myApp/comment/add/ HTTP/1.1" 200 10887
+INFO 2022-05-06 11:24:27,299 basehttp 16672 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 11:24:59,490 basehttp 16672 13300 "POST /admin/myApp/comment/add/ HTTP/1.1" 200 11128
+INFO 2022-05-06 11:24:59,594 basehttp 16672 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 11:25:05,119 basehttp 16672 13300 "POST /admin/myApp/comment/add/ HTTP/1.1" 302 0
+INFO 2022-05-06 11:25:05,255 basehttp 16672 13300 "GET /admin/myApp/comment/ HTTP/1.1" 200 7278
+INFO 2022-05-06 11:25:05,359 basehttp 16672 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 11:28:02,889 autoreload 15788 8332 Watching for file changes with StatReloader
+WARNING 2022-05-06 11:36:01,157 log 15788 16472 Method Not Allowed: /api/token/
+WARNING 2022-05-06 11:36:01,157 basehttp 15788 16472 "GET /api/token/ HTTP/1.1" 405 40
+INFO 2022-05-06 11:36:57,321 basehttp 15788 16472 "POST /api/token/ HTTP/1.1" 200 483
+INFO 2022-05-06 11:37:46,542 basehttp 15788 16472 "GET /user/ HTTP/1.1" 200 237
+INFO 2022-05-06 11:37:56,143 basehttp 15788 16472 "GET /issue/ HTTP/1.1" 200 340
+WARNING 2022-05-06 11:38:08,951 log 15788 16472 Unauthorized: /issue/
+WARNING 2022-05-06 11:38:08,951 basehttp 15788 16472 "GET /issue/ HTTP/1.1" 401 183
+INFO 2022-05-06 11:38:16,755 basehttp 15788 16472 "GET /issue/ HTTP/1.1" 200 340
+INFO 2022-05-06 12:33:44,773 autoreload 15788 8332 F:\ProjectHUE\myApp\models.py changed, reloading.
+INFO 2022-05-06 12:33:46,380 autoreload 15764 16432 Watching for file changes with StatReloader
+ERROR 2022-05-06 12:33:56,173 log 15764 15932 Internal Server Error: /admin/myApp/comment/
+Traceback (most recent call last):
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\options.py", line 608, in get_field
+    return self.fields_map[field_name]
+KeyError: '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\utils.py", line 266, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\utils.py", line 297, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\options.py", line 610, in get_field
+    raise FieldDoesNotExist("%s has no field named '%s'" % (self.object_name, field_name))
+django.core.exceptions.FieldDoesNotExist: Comment has no field named '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 168, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 153, in render
+    return compiled_parent._render(context)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 168, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 153, in render
+    return compiled_parent._render(context)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 168, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\templatetags\base.py", line 33, in render
+    return super().render(context)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\library.py", line 215, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 309, in result_list
+    'results': list(results(cl)),
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 285, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 276, in __init__
+    super().__init__(*items)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 201, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\admin\utils.py", line 279, in lookup_field
+    value = attr()
+  File "F:\ProjectHUE\myApp\models.py", line 48, in __str__
+    return '%s - %s' % (self.author, self.Issue.issueName)
+AttributeError: 'Comment' object has no attribute 'Issue'
+ERROR 2022-05-06 12:33:56,178 basehttp 15764 15932 "GET /admin/myApp/comment/ HTTP/1.1" 500 381803
+INFO 2022-05-06 12:34:10,464 autoreload 15764 16432 F:\ProjectHUE\myApp\models.py changed, reloading.
+INFO 2022-05-06 12:34:12,072 autoreload 1824 3648 Watching for file changes with StatReloader
+INFO 2022-05-06 12:34:22,047 basehttp 1824 14228 "GET /admin/myApp/comment/ HTTP/1.1" 200 7165
+INFO 2022-05-06 12:34:22,174 basehttp 1824 14228 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:34:52,099 autoreload 1824 3648 F:\ProjectHUE\myApp\models.py changed, reloading.
+INFO 2022-05-06 12:34:53,350 autoreload 15200 6748 Watching for file changes with StatReloader
+INFO 2022-05-06 12:34:57,948 basehttp 15200 14632 "GET /admin/myApp/comment/ HTTP/1.1" 200 7096
+INFO 2022-05-06 12:34:58,025 basehttp 15200 14632 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:35:44,176 autoreload 15200 6748 F:\ProjectHUE\myApp\models.py changed, reloading.
+INFO 2022-05-06 12:35:45,339 autoreload 5548 13288 Watching for file changes with StatReloader
+INFO 2022-05-06 12:35:51,201 basehttp 5548 3404 "GET /admin/myApp/comment/ HTTP/1.1" 200 7108
+INFO 2022-05-06 12:35:51,276 basehttp 5548 3404 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:47:00,524 basehttp 5548 12792 "GET /admin/auth/user/ HTTP/1.1" 200 9353
+INFO 2022-05-06 12:47:00,647 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:47:00,932 basehttp 5548 12792 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2022-05-06 12:47:44,530 basehttp 5548 12792 "GET /admin/auth/user/1/change/ HTTP/1.1" 200 17594
+INFO 2022-05-06 12:47:44,653 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:47:44,675 basehttp 5548 16152 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4360
+INFO 2022-05-06 12:47:44,694 basehttp 5548 472 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12350
+INFO 2022-05-06 12:47:45,025 basehttp 5548 472 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2022-05-06 12:47:45,031 basehttp 5548 16152 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2022-05-06 12:47:45,033 basehttp 5548 12792 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2022-05-06 12:47:58,817 basehttp 5548 12792 "GET /admin/auth/user/ HTTP/1.1" 200 9353
+INFO 2022-05-06 12:48:09,574 basehttp 5548 12792 "GET /admin/auth/user/ HTTP/1.1" 200 9353
+INFO 2022-05-06 12:48:09,681 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:48:22,814 basehttp 5548 12792 "GET /admin/auth/user/add/ HTTP/1.1" 200 8384
+INFO 2022-05-06 12:48:22,907 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:48:45,052 basehttp 5548 12792 "POST /admin/auth/user/add/ HTTP/1.1" 200 8547
+INFO 2022-05-06 12:48:45,162 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:49:01,578 basehttp 5548 12792 "POST /admin/auth/user/add/ HTTP/1.1" 200 8622
+INFO 2022-05-06 12:49:01,662 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:49:19,337 basehttp 5548 12792 "POST /admin/auth/user/add/ HTTP/1.1" 200 8563
+INFO 2022-05-06 12:49:19,447 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:49:47,909 basehttp 5548 12792 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2022-05-06 12:49:48,019 basehttp 5548 12792 "GET /admin/auth/user/add/ HTTP/1.1" 200 8608
+INFO 2022-05-06 12:49:48,143 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:50:07,458 basehttp 5548 12792 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2022-05-06 12:50:07,548 basehttp 5548 12792 "GET /admin/auth/user/add/ HTTP/1.1" 200 8607
+INFO 2022-05-06 12:50:07,656 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:50:18,623 basehttp 5548 12792 "GET /admin/auth/user/ HTTP/1.1" 200 10121
+INFO 2022-05-06 12:50:18,714 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:50:18,804 basehttp 5548 12792 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2022-05-06 12:50:27,436 basehttp 5548 12792 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 17517
+INFO 2022-05-06 12:50:27,554 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:50:48,930 basehttp 5548 12792 "GET /admin/auth/group/ HTTP/1.1" 200 6262
+INFO 2022-05-06 12:50:49,007 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:50:51,973 basehttp 5548 12792 "GET /admin/auth/group/add/ HTTP/1.1" 200 10155
+INFO 2022-05-06 12:50:52,087 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:51:38,426 basehttp 5548 12792 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2022-05-06 12:51:38,529 basehttp 5548 12792 "GET /admin/auth/group/add/ HTTP/1.1" 200 10381
+INFO 2022-05-06 12:51:38,658 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:53:51,765 basehttp 5548 12792 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2022-05-06 12:53:51,852 basehttp 5548 12792 "GET /admin/auth/group/add/ HTTP/1.1" 200 10391
+INFO 2022-05-06 12:53:51,957 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:54:56,975 basehttp 5548 12792 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2022-05-06 12:54:57,057 basehttp 5548 12792 "GET /admin/auth/group/ HTTP/1.1" 200 8008
+INFO 2022-05-06 12:54:57,174 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:54:59,957 basehttp 5548 12792 "GET /admin/auth/user/ HTTP/1.1" 200 10529
+INFO 2022-05-06 12:55:00,044 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:55:03,980 basehttp 5548 12792 "GET /admin/auth/user/1/change/ HTTP/1.1" 200 17711
+INFO 2022-05-06 12:55:04,088 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:55:20,298 basehttp 5548 12792 "POST /admin/auth/user/1/change/ HTTP/1.1" 302 0
+INFO 2022-05-06 12:55:20,401 basehttp 5548 12792 "GET /admin/auth/user/ HTTP/1.1" 200 10723
+INFO 2022-05-06 12:55:20,510 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:55:23,055 basehttp 5548 12792 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 17634
+INFO 2022-05-06 12:55:23,153 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:55:31,861 basehttp 5548 12792 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2022-05-06 12:55:31,951 basehttp 5548 12792 "GET /admin/auth/user/ HTTP/1.1" 200 10723
+INFO 2022-05-06 12:55:32,096 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:55:34,937 basehttp 5548 12792 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 17630
+INFO 2022-05-06 12:55:35,030 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:55:45,472 basehttp 5548 12792 "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO 2022-05-06 12:55:45,571 basehttp 5548 12792 "GET /admin/auth/user/ HTTP/1.1" 200 10722
+INFO 2022-05-06 12:55:45,657 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:55:55,718 basehttp 5548 12792 "GET /admin/logout/ HTTP/1.1" 200 1530
+INFO 2022-05-06 12:55:57,968 basehttp 5548 12792 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-05-06 12:55:58,046 basehttp 5548 12792 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+INFO 2022-05-06 12:56:09,720 basehttp 5548 12792 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2377
+INFO 2022-05-06 12:56:17,894 basehttp 5548 12792 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2022-05-06 12:56:17,978 basehttp 5548 12792 "GET /admin/ HTTP/1.1" 200 8068
+INFO 2022-05-06 12:56:26,525 basehttp 5548 12792 "GET /admin/auth/user/ HTTP/1.1" 200 10529
+INFO 2022-05-06 12:56:26,707 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:56:40,298 basehttp 5548 12792 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 17643
+INFO 2022-05-06 12:56:40,409 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:57:31,388 basehttp 5548 12792 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2022-05-06 12:57:31,500 basehttp 5548 12792 "GET /admin/auth/user/ HTTP/1.1" 200 10740
+INFO 2022-05-06 12:57:31,607 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:57:34,452 basehttp 5548 12792 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 17639
+INFO 2022-05-06 12:57:34,558 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:57:49,601 basehttp 5548 12792 "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO 2022-05-06 12:57:49,700 basehttp 5548 12792 "GET /admin/auth/user/ HTTP/1.1" 200 10754
+INFO 2022-05-06 12:57:49,830 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 12:58:31,644 basehttp 5548 4928 "POST /api/token/ HTTP/1.1" 200 483
+INFO 2022-05-06 12:59:22,462 basehttp 5548 4928 "GET /user/ HTTP/1.1" 200 237
+INFO 2022-05-06 12:59:58,401 basehttp 5548 4928 "GET /user/ HTTP/1.1" 200 237
+INFO 2022-05-06 13:00:06,970 basehttp 5548 12792 "GET /admin/auth/group/ HTTP/1.1" 200 7816
+INFO 2022-05-06 13:00:07,054 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 13:00:11,611 basehttp 5548 12792 "GET /admin/auth/group/3/change/ HTTP/1.1" 200 10456
+INFO 2022-05-06 13:00:11,731 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 13:00:20,797 basehttp 5548 12792 "POST /admin/auth/group/3/change/ HTTP/1.1" 302 0
+INFO 2022-05-06 13:00:20,894 basehttp 5548 12792 "GET /admin/auth/group/ HTTP/1.1" 200 8010
+INFO 2022-05-06 13:00:21,018 basehttp 5548 12792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 13:00:31,322 basehttp 5548 4928 "GET /user/ HTTP/1.1" 200 237
+INFO 2022-05-06 13:00:33,187 basehttp 5548 4928 "GET /user/ HTTP/1.1" 200 237
+INFO 2022-05-06 13:00:53,922 basehttp 5548 12792 "GET /admin/logout/ HTTP/1.1" 200 1530
+INFO 2022-05-06 13:00:56,472 basehttp 5548 12792 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-05-06 13:00:56,522 basehttp 5548 12792 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+INFO 2022-05-06 13:01:10,200 basehttp 5548 12792 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2022-05-06 13:01:10,251 basehttp 5548 12792 "GET /admin/ HTTP/1.1" 200 3594
+INFO 2022-05-06 13:01:10,502 basehttp 5548 12792 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2022-05-06 15:38:20,339 basehttp 5548 2420 "GET /admin/myApp/issue/ HTTP/1.1" 200 4970
+INFO 2022-05-06 15:38:24,201 basehttp 5548 2420 "GET /admin/myApp/project/ HTTP/1.1" 200 4968
+INFO 2022-05-06 15:38:27,133 basehttp 5548 2420 "GET /admin/myApp/project/1/change/ HTTP/1.1" 200 6148
+INFO 2022-05-06 15:38:27,253 basehttp 5548 2420 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 15:38:30,531 basehttp 5548 2420 "GET /admin/myApp/issue/ HTTP/1.1" 200 4970
+INFO 2022-05-06 15:38:32,113 basehttp 5548 2420 "GET /admin/myApp/issue/2/change/ HTTP/1.1" 200 7801
+INFO 2022-05-06 15:38:32,241 basehttp 5548 2420 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-06 16:25:42,198 autoreload 17268 7964 Watching for file changes with StatReloader
+INFO 2022-05-06 16:26:08,363 basehttp 17268 1140 "POST /api/token/ HTTP/1.1" 200 483
+INFO 2022-05-06 16:26:36,242 basehttp 17268 1140 "GET /user/ HTTP/1.1" 200 237
+ERROR 2022-05-06 16:29:32,730 log 17268 1140 Internal Server Error: /issue/
+Traceback (most recent call last):
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "F:\ProjectHUE\api\views.py", line 48, in post
+    email.send()
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\mail\message.py", line 284, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\mail\backends\smtp.py", line 102, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\mail\backends\smtp.py", line 69, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. Learn more at\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor g12-20020ac842cc000000b002f39b99f678sm2388744qtm.18 - gsmtp')
+ERROR 2022-05-06 16:29:32,738 basehttp 17268 1140 "POST /issue/ HTTP/1.1" 500 119293
+INFO 2022-05-06 16:29:51,067 basehttp 17268 10484 "GET /admin/myApp/issue/ HTTP/1.1" 200 4970
+INFO 2022-05-06 16:33:01,618 autoreload 17300 11336 Watching for file changes with StatReloader
+WARNING 2022-05-06 16:33:18,041 log 17300 10908 Bad Request: /api/token/
+WARNING 2022-05-06 16:33:18,041 basehttp 17300 10908 "POST /api/token/ HTTP/1.1" 400 79
+INFO 2022-05-06 16:33:59,695 basehttp 17300 13904 "POST /api/token/ HTTP/1.1" 200 483
+INFO 2022-05-06 16:34:18,952 basehttp 17300 12388 "GET /user/ HTTP/1.1" 200 237
+ERROR 2022-05-06 16:35:17,676 log 17300 11196 Internal Server Error: /issue/
+Traceback (most recent call last):
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "F:\ProjectHUE\api\views.py", line 48, in post
+    email.send()
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\mail\message.py", line 284, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\mail\backends\smtp.py", line 102, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\mail\backends\smtp.py", line 69, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. Learn more at\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor cz7-20020a0564021ca700b0042617ba63cfsm2113521edb.89 - gsmtp')
+ERROR 2022-05-06 16:35:17,676 basehttp 17300 11196 "POST /issue/ HTTP/1.1" 500 119173
+INFO 2022-05-06 16:35:36,770 basehttp 17300 15136 "GET /admin/myApp/issue/ HTTP/1.1" 200 4970
+INFO 2022-05-06 16:40:03,710 autoreload 17300 11336 F:\ProjectHUE\api\views.py changed, reloading.
+INFO 2022-05-06 16:40:05,325 autoreload 15464 4928 Watching for file changes with StatReloader
+INFO 2022-05-06 16:40:12,107 autoreload 15464 4928 F:\ProjectHUE\api\views.py changed, reloading.
+INFO 2022-05-06 16:40:14,060 autoreload 13564 2864 Watching for file changes with StatReloader
+WARNING 2022-05-06 16:40:30,524 log 13564 7920 Unauthorized: /issue/
+WARNING 2022-05-06 16:40:30,524 basehttp 13564 7920 "POST /issue/ HTTP/1.1" 401 183
+INFO 2022-05-06 16:41:02,183 basehttp 13564 6236 "POST /api/token/ HTTP/1.1" 200 483
+ERROR 2022-05-06 16:41:18,943 log 13564 15436 Internal Server Error: /issue/
+Traceback (most recent call last):
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "F:\ProjectHUE\api\views.py", line 41, in post
+    send_mail(
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\mail\__init__.py", line 61, in send_mail
+    return mail.send()
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\mail\message.py", line 284, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\mail\backends\smtp.py", line 102, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\mail\backends\smtp.py", line 69, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. Learn more at\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor el22-20020a170907285600b006f3ef214e32sm1822505ejc.152 - gsmtp')
+ERROR 2022-05-06 16:41:18,951 basehttp 13564 15436 "POST /issue/ HTTP/1.1" 500 124267
+ERROR 2022-05-06 16:44:52,867 log 13564 16980 Internal Server Error: /issue/
+Traceback (most recent call last):
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "F:\ProjectHUE\api\views.py", line 41, in post
+    send_mail(
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\mail\__init__.py", line 61, in send_mail
+    return mail.send()
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\mail\message.py", line 284, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\mail\backends\smtp.py", line 102, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\mail\backends\smtp.py", line 69, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. Learn more at\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d5-20020a170906304500b006f3ef214e05sm1813474ejd.107 - gsmtp')
+ERROR 2022-05-06 16:44:52,867 basehttp 13564 16980 "POST /issue/ HTTP/1.1" 500 124249
+INFO 2022-05-06 16:50:30,336 autoreload 13564 2864 F:\ProjectHUE\api\views.py changed, reloading.
+INFO 2022-05-06 16:50:32,291 autoreload 2924 1444 Watching for file changes with StatReloader
+INFO 2022-05-06 16:50:39,680 basehttp 2924 16632 "POST /api/token/ HTTP/1.1" 200 483
+ERROR 2022-05-06 16:50:59,892 log 2924 14176 Internal Server Error: /issue/
+Traceback (most recent call last):
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "F:\ProjectHUE\api\views.py", line 48, in post
+    email.send()
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\mail\message.py", line 284, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\mail\backends\smtp.py", line 102, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\mail\backends\smtp.py", line 69, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "C:\Users\rashi\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. Learn more at\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor ht7-20020a170907608700b006f3ef214dc7sm1861105ejc.45 - gsmtp')
+ERROR 2022-05-06 16:50:59,892 basehttp 2924 14176 "POST /issue/ HTTP/1.1" 500 119173
+INFO 2022-05-06 16:55:42,938 autoreload 2924 1444 F:\ProjectHUE\LY3000\settings.py changed, reloading.
+INFO 2022-05-06 16:55:45,040 autoreload 15792 12956 Watching for file changes with StatReloader
+WARNING 2022-05-06 16:55:52,364 log 15792 6092 Unauthorized: /issue/
+WARNING 2022-05-06 16:55:52,364 basehttp 15792 6092 "POST /issue/ HTTP/1.1" 401 183
+INFO 2022-05-06 16:55:56,609 basehttp 15792 8160 "POST /api/token/ HTTP/1.1" 200 483
+INFO 2022-05-06 16:56:15,449 basehttp 15792 9832 "POST /issue/ HTTP/1.1" 200 178
+INFO 2022-05-06 16:59:14,960 basehttp 15792 14192 "GET /admin/myApp/issue/ HTTP/1.1" 200 5077
+INFO 2022-05-06 17:05:38,309 autoreload 15792 12956 F:\ProjectHUE\LY3000\settings.py changed, reloading.
+INFO 2022-05-06 17:05:39,908 autoreload 8196 5256 Watching for file changes with StatReloader
+INFO 2022-05-06 17:18:46,549 autoreload 8196 5256 F:\ProjectHUE\LY3000\settings.py changed, reloading.
