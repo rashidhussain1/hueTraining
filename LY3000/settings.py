@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'LY3000.wsgi.application'
 DATABASES = {  
     'default': {  
         'ENGINE': 'django.db.backends.mysql',  
-        'NAME': 'newly3000db',  
+        'NAME': 'ly3000db',  
         'USER': 'root',  
         'PASSWORD': 'password',  
         'HOST': '127.0.0.1',  
@@ -182,7 +182,7 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'rashidhussain.cse@gmail.com'
 EMAIL_HOST_PASSWORD = 'ehasorpxkhgorudx'
 
-#cron job setup
+#cron job setup for sending mail at 10pm everyday
 CRONJOBS = [
-    ('*/1 * * * *', 'api.cron.emailAlert')
+    ('0 22 * * *', 'home.cron.emailAlert'), 
 ]
