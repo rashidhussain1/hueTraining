@@ -7,7 +7,8 @@ from rest_framework.views import APIView
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from rest_framework.permissions import IsAuthenticated
 
-#view for user table for GET and POST method
+#view for user table for GET and POST method---------------------------------------------------------------
+
 class UserView(APIView):
     authentication_classes = [JWTAuthentication]
     permission_classes = [IsAuthenticated]
@@ -23,10 +24,10 @@ class UserView(APIView):
             serializer.save()
         return Response(serializer.data)
 
-#view for Issue table for GET and POST method
+#view for Issue table for GET and POST method---------------------------------------------------------------
+
 from django.core.mail import EmailMessage
 from django.conf import settings
-#from django.template.loader import render_to_string
 
 class IssueView(APIView):
     authentication_classes = [JWTAuthentication]
@@ -51,7 +52,26 @@ class IssueView(APIView):
             serializer.save()
         return Response(serializer.data)
 
-#view for Project table for GET and POST method
+    def get_object(self, issueId):
+        return Issue.objects.get(issueId=issueId)
+    
+    def put(self, request, issueId, format=None):
+        issueObj = self.get_object(issueId)
+        serializer = IssueSerializer(issueObj, data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data)
+        else:
+            return Response('Not valid data')
+
+    def delete(self, request, issueId, format=None):
+        issueObj = self.get_object(issueId)
+        issueObj.delete()
+        return Response('Issue Deleted')
+    
+
+#view for Project table for GET and POST method--------------------------------------------------------------------
+
 class ProjectView(APIView):
     authentication_classes = [JWTAuthentication]
     permission_classes = [IsAuthenticated]
@@ -66,6 +86,26 @@ class ProjectView(APIView):
         if serializer.is_valid():
             serializer.save()
         return Response(serializer.data)
+
+    def get_object(self, projectId):
+        return Project.objects.get(projectId=projectId)
+    
+    def put(self, request, projectId, format=None):
+        projectObj = self.get_object(projectId)
+        serializer = ProjectSerializer(projectObj, data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data)
+        else:
+            return Response('Not valid data')
+
+    def delete(self, request, projectId, format=None):
+        projectObj = self.get_object(projectId)
+        projectObj.delete()
+        return Response('Project Deleted')
+
+    
+# View for Comment table for GET and POST method--------------------------------------------------------------------
 
 class CommentView(APIView):
     authentication_classes = [JWTAuthentication]
