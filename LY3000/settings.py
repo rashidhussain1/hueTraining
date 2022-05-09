@@ -184,5 +184,5 @@ EMAIL_HOST_PASSWORD = 'ehasorpxkhgorudx'
 
 #cron job setup for sending mail at 10pm everyday
 CRONJOBS = [
-    ('0 22 * * *', 'home.cron.emailAlert'), 
+    ('0 22 * * *', 'myApp.cron.emailAlert'), 
 ]
