@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  app:
+    build: .
+    volumes:
+      - .:/django
+    ports:
+      - 8000:8000
+    image: app:django
+    container_name: django_container1
+    command: python manage.py runserver 0.0.0.0:8000
+    depends_on:
+      - db
+  db:
+    platform: linux/x86_64
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: 'ly3000db'
+      MYSQL_ROOT_PASSWORD: 'password'
+    volumes:
+      - ./data/db:/var/lib/mysql

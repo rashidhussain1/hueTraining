@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ryl84#78m%x&_+b4ajx34neru66ek_6(qvu_qlf!9*yh+&$$sz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -85,7 +85,7 @@ DATABASES = {
         'NAME': 'ly3000db',  
         'USER': 'root',  
         'PASSWORD': 'password',  
-        'HOST': '127.0.0.1',  
+        'HOST': 'db',  
         'PORT': '3306',  
         'OPTIONS': {  
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"  
@@ -162,7 +162,7 @@ LOGGING={
         'file':{
             'level':'INFO',
             'class':'logging.FileHandler',
-            'filename':'./logs/debug.log',
+            'filename':'./logs/ly3000.log',
             'formatter':'simple'
         }
     },

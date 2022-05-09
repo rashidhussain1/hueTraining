@@ -7,7 +7,7 @@ from rest_framework.views import APIView
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from rest_framework.permissions import IsAuthenticated
 
-#view for user table for GET and POST method---------------------------------------------------------------
+# View for user table for GET and POST method---------------------------------------------------------------
 
 class UserView(APIView):
     authentication_classes = [JWTAuthentication]
@@ -24,7 +24,7 @@ class UserView(APIView):
             serializer.save()
         return Response(serializer.data)
 
-#view for Issue table for GET and POST method---------------------------------------------------------------
+# View for Issue table for GET and POST method---------------------------------------------------------------
 
 from django.core.mail import EmailMessage
 from django.conf import settings
@@ -39,14 +39,7 @@ class IssueView(APIView):
         return Response(serializer.data)
 
     def post(self, request):
-        email = EmailMessage(
-            'new issue added',
-            'A new issue has been added',
-            settings.EMAIL_HOST_USER,
-            ['rashidhussain060998@gmail.com'],
-        )
-        email.fail_silently = False
-        email.send()
+        
         serializer = IssueSerializer(data=request.data)
         if serializer.is_valid():
             serializer.save()
@@ -56,6 +49,14 @@ class IssueView(APIView):
         return Issue.objects.get(issueId=issueId)
     
     def put(self, request, issueId, format=None):
+        email = EmailMessage(
+            'issue update',
+            'A issue has been updated',
+            settings.EMAIL_HOST_USER,
+            ['rashidhussain060998@gmail.com'],
+        )
+        email.fail_silently = False
+        email.send()
         issueObj = self.get_object(issueId)
         serializer = IssueSerializer(issueObj, data=request.data)
         if serializer.is_valid():
@@ -70,7 +71,7 @@ class IssueView(APIView):
         return Response('Issue Deleted')
     
 
-#view for Project table for GET and POST method--------------------------------------------------------------------
+# View for Project table for GET and POST method--------------------------------------------------------------------
 
 class ProjectView(APIView):
     authentication_classes = [JWTAuthentication]
